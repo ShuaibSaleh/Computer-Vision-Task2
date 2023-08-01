@@ -1,0 +1,53 @@
+{% extends "index.html" %}
+
+
+{%block content %}
+
+<br><br><br>
+<div class="center">
+
+    <div class="row">
+
+        <div class="column" id="Col1">
+
+
+            <div id="imagehoughtransform"></div>
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="imageinput" accept="image/*" required="required">
+            </div>
+
+        </div>
+
+        <div class="column" id="Col2">
+            <div id="houghtransformoutput" ></div>
+        </div>
+
+    </div>
+</div>
+
+<br><br><br>
+<div class="center">
+
+    <div id="controll_container">
+
+        <div id="divhoughtransformLabel">
+            <!-- <label  id="AddNoiseLabel">Add Noise</label>           -->
+            <select name="Hough Transform " id="houghtransformselectbox" class="form-select form-select-lg mb-3"
+                aria-label=".form-select-lg example">
+                <!-- <option> Choose Circle or Line </option> -->
+                <option value="Circle">Choose Circle</option>
+                <option value="Line">Choose Line</option>
+            </select> 
+
+        </div>
+
+        <button id="submitting_btn" class="btn btn-outline-dark">Submit</button>
+
+    </div>
+
+</div>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/houghtransform.css') }}">
+<script src="{{ url_for('static', filename='js/houghtransform.js') }}"></script>
+
+
+{% endblock %}

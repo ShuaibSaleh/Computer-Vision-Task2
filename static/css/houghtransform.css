@@ -1,0 +1,75 @@
+.center{
+ 
+    /* border: 5px solid; */
+    display: flex;
+    justify-content: center;
+    
+  }
+  .row{
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+  }
+  
+  .column{
+    float: left;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  #Col1 ,#Col2{
+    width: 450px;
+    height: 350px;
+    margin-left: 10px;
+  }
+  
+  #imagehoughtransform {
+      width:100%;
+      height:100%;
+      background-color: #071b6b;
+      /* background-color: rgb(72, 0, 0); */
+      /* margin-top: 20px; */
+      box-shadow: 4px 4px 4px  rgb(0, 0, 0);
+    }
+  
+    #imageinput {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      margin-top: 2px;
+    }
+  
+    #houghtransformoutput {
+      width: 420px;
+      height: 330px;
+      background-color: #071b6b;
+      box-shadow: 4px 4px 4px  rgb(0, 0, 0);
+    }
+    #houghtransformselectbox{
+    
+        background-color: #114af518;
+        font:bold;
+        font-size: 20px;
+        border: 1px solid black;
+        border-radius: 40px;
+        width:240px;
+        height: fit-content;
+        text-align: center;
+      }
+      #houghtransformselectbox:hover {
+        background-color: #01020418;
+      }
+  #submitting_btn{
+    font:bold;
+    background-color: #114af518;
+    border: 1px solid black;
+    border-radius: 40px;
+    width:240px;
+    height: fit-content;
+    text-align: center;     
+    font-size: 26px;
+  }
+  
+  
+  
